@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_SIZE 500
-
-char array[MAX_SIZE];
+char array[500];
 FILE *fin;
 int position = 1;
 int iPattern;
@@ -13,7 +11,7 @@ int counterDOC = 0;
 char OPTIONS[5];
 long valueForMoptions = -1;
 unsigned indexM;
-int arr_m[MAX_SIZE] = {0};
+int arr_m[500] = {0};
 
 void search_options(int, char *[]);
 void search_pattern(int, char *[]);
